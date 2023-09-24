@@ -7,6 +7,6 @@
 # To activate the api there's a need to rebuild the last commit on Render Cloud Application (the server goes down with inactivity)
 
 .env\
-JWT_SECRET=secret
-MONGODB_URI=mongodb+srv://Dez1ess:9y6osNK4wl7SmExH@davestodoapp.hzospak.mongodb.net/davestodo?retryWrites=true&w=majority
+JWT_SECRET=secret\
+MONGODB_URI=mongodb+srv://Dez1ess:9y6osNK4wl7SmExH@davestodoapp.hzospak.mongodb.net/davestodo?retryWrites=true&w=majority\
 PORT=3000
