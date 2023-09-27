@@ -5,9 +5,10 @@
   ],
   "routes": [
     {
-      "src": "/[^.]+",
+      "src": "/(.*)",
       "dest": "/",
       "status": 20
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
