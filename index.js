@@ -15,13 +15,11 @@ const PORT = process.env.PORT;
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: '*', 
+  origin: ["https://todo-app-pied-nine.vercel.app"], 
   methods: ["GET", "POST", "DELETE", "PUT"],
   credentials: true,
   optionsSuccessStatus: 204,
 }));
-
-app.options('*', cors());
 
 app.use(cookieParser());
 
