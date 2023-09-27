@@ -15,7 +15,7 @@ const PORT = process.env.PORT;
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: "https://todo-app-pied-nine.vercel.app", 
+  origin: ["https://todo-app-pied-nine.vercel.app"], 
   methods: ["GET", "POST", "DELETE", "PUT"],
   credentials: true,
   optionsSuccessStatus: 204,
