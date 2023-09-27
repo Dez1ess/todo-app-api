@@ -10,5 +10,4 @@
       "status": 20
     }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
