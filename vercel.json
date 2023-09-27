@@ -10,5 +10,5 @@
       "status": 20
     }
   ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]d
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
